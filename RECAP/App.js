@@ -55,5 +55,23 @@ const parent = React.createElement("div", { id: "parent" }, [
 root.render(parent);
 //root.render does it is just putting parent inside root tag
 
+//akshay is here repleace that parent
 
-//akshay is here repleace that parent 
+//what is the root is matter only inside root part consider inside react
+
+//recap
+//how we can write small program using html
+//how we can write small program using js
+//how we can bring react inside code using cdn link
+//we wrote some piece of script
+//inside app we create element
+//react element element is object
+//create root is responsible to create a root inside root
+//then root.render render() is powerful it is helping us put that object into our page
+//create element is object which converted into html then broswer will understand what is html and print on the page
+//createElement api takes 3 argment() name of tag, attributes, children
+//first children can be normal react element
+//if u have multiple children u can pass inside array
+//inside html when we do root.render it is getting replaced it up
+//if there is something on the top or the bottom of the page u can still used react using root
+//react is just library
