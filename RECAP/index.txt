@@ -1,0 +1,213 @@
+react is just js  which is doing something for us
+https://unpkg.com/react@18/umd/react.development.js // this is react code avaialble in the link which is return some code 
+return by facebook developer
+
+//what happend when we inject react into our project
+
+if you are doing React into console 
+it will give functions of react.
+
+{Children: {…}, Fragment: Symbol(react.fragment), Profiler: Symbol(react.profiler), Component: ƒ, PureComponent: ƒ, …}
+Children
+: 
+count
+: 
+ƒ countChildren(children)
+forEach
+: 
+ƒ forEachChildren(children, forEachFunc, forEachContext)
+map
+: 
+ƒ mapChildren(children, func, context)
+only
+: 
+ƒ onlyChild(children)
+toArray
+: 
+ƒ toArray(children)
+[[Prototype]]
+: 
+Object
+Component
+: 
+ƒ Component(props, context, updater)
+Fragment
+: 
+Symbol(react.fragment)
+Profiler
+: 
+Symbol(react.profiler)
+PureComponent
+: 
+ƒ PureComponent(props, context, updater)
+StrictMode
+: 
+Symbol(react.strict_mode)
+Suspense
+: 
+Symbol(react.suspense)
+cloneElement
+: 
+ƒ cloneElementWithValidation(element, props, children)
+createContext
+: 
+ƒ createContext(defaultValue)
+createElement
+: 
+ƒ createElementWithValidation(type, props, children)
+createFactory
+: 
+ƒ createFactoryWithValidation(type)
+createRef
+: 
+ƒ createRef()
+forwardRef
+: 
+ƒ forwardRef(render)
+isValidElement
+: 
+ƒ isValidElement(object)
+lazy
+: 
+ƒ lazy(ctor)
+memo
+: 
+ƒ memo(type, compare)
+startTransition
+: 
+ƒ startTransition(scope, options)
+unstable_act
+: 
+ƒ act(callback)
+useCallback
+: 
+ƒ useCallback(callback, deps)
+useContext
+: 
+ƒ useContext(Context)
+useDebugValue
+: 
+ƒ useDebugValue(value, formatterFn)
+useDeferredValue
+: 
+ƒ useDeferredValue(value)
+useEffect
+: 
+ƒ useEffect(create, deps)
+useId
+: 
+ƒ useId()
+useImperativeHandle
+: 
+ƒ useImperativeHandle(ref, create, deps)
+useInsertionEffect
+: 
+ƒ useInsertionEffect(create, deps)
+useLayoutEffect
+: 
+ƒ useLayoutEffect(create, deps)
+useMemo
+: 
+ƒ useMemo(create, deps)
+useReducer
+: 
+ƒ useReducer(reducer, initialArg, init)
+useRef
+: 
+ƒ useRef(initialValue)
+useState
+: 
+ƒ useState(initialState)
+useSyncExternalStore
+: 
+ƒ useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot)
+useTransition
+: 
+ƒ useTransition()
+version
+: 
+"18.2.0"
+__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED
+: 
+{ReactCurrentDispatcher: {…}, ReactCurrentOwner: {…}, ReactCurrentBatchConfig: {…}, Scheduler: {…}, ReactCurrentActQueue: {…}, …}
+[[Prototype]]
+: 
+Object
+
+
+__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED
+: 
+ReactCurrentActQueue
+: 
+{current: null, isBatchingLegacy: false, didScheduleLegacyUpdate: false}
+ReactCurrentBatchConfig
+: 
+{transition: null}
+ReactCurrentDispatcher
+: 
+{current: null}
+ReactCurrentOwner
+: 
+{current: null}
+ReactDebugCurrentFrame
+: 
+{getCurrentStack: null, setExtraStackFrame: ƒ, getStackAddendum: ƒ}
+Scheduler
+: 
+
+
+1.https://unpkg.com/react@18/umd/react.development.js
+first file is the react.developement.js this file is core of react
+2.https://unpkg.com/react-dom@18/umd/react-dom.development.js
+second file is react-dom which is used for dom operations or we need to modify the dom
+
+why react made 2 files seperate
+
+becuase react not only work on broswer.\, react work on react native and other broswer also so in different native there are different fucntions and methods variables library used so here react maintained 2 files
+
+when we include 2nd file we get reatdom from it
+
+
+{__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED: {…}, createPortal: ƒ, createRoot: ƒ, findDOMNode: ƒ, flushSync: ƒ, …}
+createPortal
+: 
+ƒ createPortal$1(children, container)
+createRoot
+: 
+ƒ createRoot$1(container, options)
+findDOMNode
+: 
+ƒ findDOMNode(componentOrElement)
+flushSync
+: 
+ƒ flushSync$1(fn)
+hydrate
+: 
+ƒ hydrate(element, container, callback)
+hydrateRoot
+: 
+ƒ hydrateRoot$1(container, initialChildren, options)
+render
+: 
+ƒ render(element, container, callback)
+unmountComponentAtNode
+: 
+ƒ unmountComponentAtNode(container)
+unstable_batchedUpdates
+: 
+ƒ batchedUpdates$1(fn, a)
+unstable_renderSubtreeIntoContainer
+: 
+ƒ renderSubtreeIntoContainer(parentComponent, element, containerNode, callback)
+version
+: 
+"18.2.0"
+__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED
+: 
+{usingClientEntryPoint: false, Events: Array(6)}
+[[Prototype]]
+: 
+Object
+
+
+//we as developers used this superpower and create a best applications
